@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Research Methods</title>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600'>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/styles.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script> 
+      <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+      <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+   </head>
+   <body>
+
+<form class="controls" id="Filters">
+ 
+  <div class="groupfilters"></div>
+
+  <fieldset class="group">
+    <h4 class="titfiltros">Number of users</h4>
+    
+    <div class="checkbox">
+      <input  type="checkbox" value=".1-10"/>
+      <label class="textt">&#60 10</label>
+    </div>
+
+    <div class="checkbox">
+      <input  type="checkbox" value=".10-50"/>
+      <label class="textt">10-50</label>
+    </div>
+
+    <div class="checkbox">
+      <input type="checkbox" value=".50-100"/>
+      <label class="textt">50-100</label>
+    </div>
+
+     <div class="checkbox">
+      <input type="checkbox" value=".100"/>
+      <label class="textt">&#62 100</label>
+    </div>
+
+  </fieldset>
+  
+  <fieldset class="group2">
+    <h4 class="titfiltros">Design Stage</h4>
+
+    <div class="checkbox">
+      <input class="cajita" type="checkbox" value=".discover"/>
+      <label class="textt">Discover</label>
+    </div>
+
+    <div class="checkbox">
+      <input type="checkbox" value=".define"/>
+      <label class="textt">Define & Develop</label>
+    </div>
+    
+    <div class="checkbox">
+      <input type="checkbox" value=".complete"/>
+      <label class="textt">Deliver</label>
+    </div>
+
+  </fieldset>
+
+  <button id="Reset" ;">Clear Filters</button>
+</form>
+
+<div id="Container" class="container">
+  <div class="fail-message"><span>No methods were found matching the selected filters</span></div>
+  
+  <div id="abTesting" class="card mix 50-100 100-2000 discover attitudinal later complete qualitative quantitative"><h2><a class="link" href="abtesting.html"><img src="images/ab_testing.svg" class="pic"/>A/B Testing</h2>
+    <p>Compares two different design versions, which are shown to two different groups of users. The results show which one performs better.</p>
+     <p><img src="images/number_users.svg" class="pic2">More than 100</p>
+  </a></div>
+
+  <div id="cSorting" class="card mix 10-50 discover define attitudinal behavioral quantitative qualitative"><h2><a class="link" href="csorting.html"><img src="images/card_sorting.svg" class="pic"/>Card Sorting</h2>
+    <p>Users organize items into groups or in their perceived right order and assign categories to each group. It shows users’ mental models.</p>
+     <p><img src="images/number_users.svg" class="pic2">15-20</p>
+  </a></div>
+
+  <div id="dStudy" class="card mix 1-10 discover attitudinal qualitative"><h2><a class="link" href="dstudy.html"><img src="images/diary_study.svg" class="pic"/>Diary Study</h2>
+    <p>Participants self-report their activities to create a log of their actions, thoughts, and frustrations, which helps to understand their experience.</p>
+     <p><img src="images/number_users.svg" class="pic2">Around 5</p>
+  </a></div>
+ 
+  <div id="fGroups" class="card mix 1-10 discover define complete attitudinal qualitative"><h2><a class="link" href="fgroup.html"><img src="images/focus_group.svg" class="pic"/>Focus Group</h2>
+    <p>Guided by a moderator, groups from 3 to 12 participants discuss and share opinions about a product, campaign or a brand.</p>
+     <p><img src="images/number_users.svg" class="pic2">Around 5</p>
+  </a></div>
+ 
+
+  <div  id="heatmap" class="card mix 100 define complete behavioral quantitative"><h2><a class="link" href="heatmap.html"><img src="images/heatmap.svg" class="pic"/>Heatmap</h2>
+    <p>Gives an overview of how users are behaving in a page, showing what attracts their attention or distracts them from the main goal.</p>
+     <p><img src="images/number_users.svg" class="pic2">More than 100</p>
+  </a></div>
+ 
+
+  <div  id="hEvaluation" class="card mix 1-10 discover define attitudinal qualitative"><h2><a class="link" href="hevaluation.html"><img src="images/heuristic_evaluation.svg" class="pic"/>Heuristic Evaluation</h2>
+    <p>Designers assess an interface against a set of agreed-upon best practices. Helps detecting usability problems before user testing begins.</p>
+     <p><img src="images/number_users.svg" class="pic2">Around 5</p>
+  </a></div>
+
+
+  <div id="interview" class="card mix 1-10 discover define complete attitudinal qualitative"><h2><a class="link" href="interview.html"><img src="images/interview.svg" class="pic"/>Interview</h2> 
+    <p>At one-on-one meetings with researchers, participants speak deeply about a topic sharing their thoughts in their own language.</p>
+     <p><img src="images/number_users.svg" class="pic2">Around 5</p>
+  </a></div>
+ 
+  <div id="kAnalysis" class="card mix 10-50 discover attitudinal quantitative"><h2><a class="link" href="kanalysis.html"><img src="images/kano_analysis.svg" class="pic"/>Kano Analysis</h2>
+    <p>Can be used within surveys and interviews, to prioritize which product attributes are more important to users, and measure satisfaction.</p>
+     <p><img src="images/number_users.svg" class="pic2">30-40</p>
+  </a></div>
+  
+
+  <div id="observation" class="card mix 1-10 discover define complete attitudinal behavioral qualitative"><h2><a class="link" href="observation.html"><img src="images/observation.svg" class="pic"/>Observation</h2>
+    <p>Requires attentive looking from the researcher and recording of phenomena. It reveals “what” users do in a specific situation.</p>
+    <p><img src="images/number_users.svg" class="pic2">Around 5</p>
+  </a></div>
+  
+
+  <div id="survey" class="card mix 100 discover attitudinal quantitative qualitative"><h2><a class="link" href="survey.html"><img src="images/survey.svg" class="pic"/>Survey</h2>
+    <p>Measure and categorize attitudes or collect self-reported data that can help track or discover important issues to address.</p>
+     <p><img src="images/number_users.svg" class="pic2">More than 100</p>
+  </a></div>
+
+
+  <div id="tAnalysis" class="card mix 1-10 discover define complete attitudinal behavioral qualitative"><h2><a class="link" href="tanalysis.html"><img src="images/task_analysis.svg" class="pic"/>Task Analysis</h2>
+    <p>Breaks down the elements of a user’s work flow. Normally includes observation and interviews.It is usually represented in flowcharts.</p>
+    <p><img src="images/number_users.svg" class="pic2">Around 5</p>
+  </a></div>
+  
+
+  <div id="uTest" class="card mix 1-10 define complete attitudinal behavioral qualitative"><h2><a class="link" href="utest.html"><img src="images/usability_test.svg" class="pic"/>Usability Test</h2>
+    <p>Participants experience an interface while completing a task or a set of tasks. Helps to identify what has to be improved before launching it.</p>
+     <p><img src="images/number_users.svg" class="pic2">Around 5</p>
+  </a></div>
+  
+
+  <div id="uJMaps" class="card mix 1-10 define complete attitudinal behavioral qualitative"><h2><a class="link" href="ujmaps.html"><img src="images/user_journey.svg" class="pic"/>User Journey Map</h2>
+    <p>A visualization of the users’ path to a particular goal, which helps identifying breakdowns and successes on their journey.</p>
+     <p><img src="images/number_users.svg" class="pic2">5-10</p>
+  </a></div>
+ 
+
+  <div id="FsTest"class="card mix 50-100 >100 discover define complete attitudinal behavioral quantitative qualitative"><h2><a class="link" href="fstest.html"><img src="images/five_second.svg" class="pic"/>5-Second Test</h2>
+    <p>For 5 seconds participants observe a design. Later, they have to answer questions based on memory and the impression of the image.</p>
+     <p><img src="images/number_users.svg" class="pic2">Around 50</p>
+  </a></div>
+  </div>
+    
+      <script type="text/javascript" src="scripts/main.js"></script>
+   </body>
+</html>
+
+ 
+

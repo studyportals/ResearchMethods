@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>user_journey</title>
+    <desc>Created with Sketch.</desc>
+    <g id="user_journey" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0387-map2" transform="translate(3.000000, 3.000000)" fill="#000000" fill-rule="nonzero">
+            <path d="M18.763,0.075 C18.616,-0.016 18.432,-0.024 18.277,0.053 L12.501,2.941 L6.725,0.053 C6.584,-0.017 6.419,-0.017 6.278,0.053 L0.278,3.053 C0.109,3.138 0.002,3.311 0.002,3.5 L0.002,18.5 C0.002,18.673 0.092,18.834 0.239,18.925 C0.319,18.975 0.41,19 0.502,19 C0.578,19 0.655,18.982 0.726,18.947 L6.502,16.059 L12.278,18.947 C12.419,19.017 12.585,19.017 12.725,18.947 L18.725,15.947 C18.894,15.862 19.001,15.689 19.001,15.5 L19.001,0.5 C19.001,0.327 18.911,0.166 18.764,0.075 L18.763,0.075 Z M6,15.191 L1,17.691 L1,3.809 L6,1.309 L6,15.191 Z M7,1.309 L12,3.809 L12,17.691 L7,15.191 L7,1.309 Z M18,15.191 L13,17.691 L13,3.809 L18,1.309 L18,15.191 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
